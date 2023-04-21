@@ -29,7 +29,8 @@ origin 对应远程仓库地址
 
 
 - git branch -f main HEAD~3
+- git branch -f main c1 直接移动到c1
 
 
--
-git commit --amend 指令可以修改最后一次提交的提交信息
+- git commit --amend 指令可以修改最后一次提交的提交信息
+- git describe <ref>
