@@ -6,7 +6,7 @@
 #include "01/binarySearch.h"
 #include "02-dp/lengthOfLIS.h"
 #include <iostream>
-
+using namespace std;
 int main() {
     std::vector<int> nums = {10, 9, 2, 5, 3, 7, 101, 18};
     std::vector<vector<int>> tar = {{5,4},{6,4},{6,7},{2,3}};
